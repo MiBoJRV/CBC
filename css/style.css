@@ -350,6 +350,7 @@ li {
 @media only screen and (max-width: 991px) {
   .articles__column__list-item {
     max-width: none;
+    border-bottom: none;
   }
 }
 @media only screen and (max-width: 991px) {

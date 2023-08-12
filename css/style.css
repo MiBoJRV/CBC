@@ -198,6 +198,80 @@ li {
     padding-bottom: 0;
   }
 }
+.cbc__content .dfr {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+@media only screen and (max-width: 991px) {
+  .cbc__content .dfr {
+    margin-bottom: 40px;
+  }
+}
+.cbc__content .dfr .desc {
+  display: flex;
+  flex-direction: column;
+}
+.cbc__content .dfr img {
+  width: 81px;
+  height: 23px;
+  margin-right: 5px;
+}
+.cbc__content .dfr h3 {
+  color: #000;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.cbc__content .dfr h3 li {
+  list-style: disc;
+}
+.cbc__content .dfr ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6b7280;
+  gap: 20px;
+}
+.cbc__content .dfr ul li {
+  color: #9B9B9B;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+}
+.cbc__content .dfr ul li:not(:first-of-type) {
+  margin-left: 8px;
+  list-style: disc;
+}
+@media only screen and (max-width: 371px) {
+  .cbc__content .dfr ul li:not(:first-of-type) {
+    list-style: none;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .cbc__content .dfr ul {
+    display: flex;
+    flex-direction: revert;
+    list-style: none;
+    margin: 0;
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 371px) {
+  .cbc__content .dfr ul {
+    flex-direction: column;
+    gap: 0;
+  }
+}
 .cbc__image {
   max-width: 917px;
   margin: 0 auto;
@@ -284,6 +358,11 @@ li {
   max-width: 551px;
   width: 100%;
 }
+@media only screen and (max-width: 991px) {
+  .cbc__text__image-text {
+    max-width: none;
+  }
+}
 .cbc__text__image-text p {
   margin-bottom: 0;
 }
@@ -291,6 +370,11 @@ li {
   max-width: 421px;
   max-height: 403px;
   width: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .cbc__text__image-image {
+    margin: 0 auto;
+  }
 }
 .cbc__text__title {
   color: #000;
@@ -705,6 +789,7 @@ li {
   .footer__copyright__content img {
     padding-left: 0;
     height: 42px;
+    max-width: 289px;
   }
 }
 
